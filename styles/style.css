@@ -12,6 +12,7 @@ body {
 
 .projetos {
     padding: 100px 0;
+    padding-left: 50px;
 }
 
 header {
@@ -25,6 +26,7 @@ ul {
     display: flex;
     gap: 50px;
     list-style: none;
+    padding-left: 50px;
 }
 
 .principal {
@@ -73,4 +75,44 @@ ul {
     width: 100px;
     height: 4px;
     background-color: #7965C1;
+}
+
+.grade-projetos {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 30px;
+}
+
+.img-projeto {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.card {
+    background-color: #0E2148;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.info-projeto {
+    padding: 20px;
+    color: #7965C1;
+    font-weight: 500px;
+}
+
+.info-projeto h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.info-projeto p {
+    margin-bottom: 15px;
+    color: #bbb;
+}
+
+.link-projeto{
+    text-decoration: none;
+    color: #7965C1;
 }
