@@ -10,6 +10,10 @@ body {
     color: rgb(236, 230, 230);
 }
 
+.projetos {
+    padding: 100px 0;
+}
+
 header {
     display: block;
     justify-content: space-between;
@@ -53,4 +57,20 @@ ul {
     color: rgb(236, 230, 230);
     font-weight: bold;
     border-radius: 5px;
+}
+
+.titulo-secao {
+    font-size: 42px;
+    margin-bottom: 60px;
+    position: relative;
+}
+
+.titulo-secao::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -15px;
+    width: 100px;
+    height: 4px;
+    background-color: #7965C1;
 }
