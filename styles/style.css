@@ -140,3 +140,57 @@ ul {
     color: #bbb;
 }
 
+.habilidades {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.tag-habilidades {
+    background-color: #7965c1b9;
+    color: rgb(236, 230, 230);
+    font-weight: bold;
+    padding: 8px 15px;
+    border-radius: 20px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    font-size: 14px;
+}
+
+.botoes-contato {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.botao-contato {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 15px 25px;
+    border-radius: 10px;
+    font-weight: 500;
+    min-width: 160px;
+    text-decoration: none;
+    color: black;
+}
+
+.email {
+    background-color: #EA4335;
+}
+
+.linkedin {
+    background-color: #0077B5;
+}
+
+.whatsapp {
+    background-color: #25d366;
+}
+
+.github {
+    background-color: rgb(236, 230, 230);
+}
+
