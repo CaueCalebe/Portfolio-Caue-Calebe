@@ -126,9 +126,12 @@ ul {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 50px;
-    text-align: left;
     max-width: 1200px;
     padding-left: 48px;
+}
+
+.conteudo-sobre{
+    text-align: left;
 }
 
 .conteudo-sobre h2 {
