@@ -126,6 +126,7 @@ ul {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 50px;
+    text-align: center;
     max-width: 1200px;
     padding-left: 48px;
 }
