@@ -176,8 +176,17 @@
             <p>Desenvolvido por Cauê Calebe</p>
             <p>© 2025</p>
         </footer>
+
        
     
 
 </body>
+<script>
+  const cursor = document.querySelector('.cursor');
+
+  document.addEventListener('mousemove', (e) => {
+    cursor.style.left = e.pageX + 'px';
+    cursor.style.top = e.pageY + 'px';
+  });
+</script>
 </html>
