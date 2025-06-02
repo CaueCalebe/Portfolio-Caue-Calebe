@@ -179,7 +179,7 @@ ul {
     font-weight: 500;
     min-width: 160px;
     text-decoration: none;
-    color: black;
+    color: #333;
 }
 
 .email {
@@ -196,5 +196,56 @@ ul {
 
 .github {
     background-color: rgb(236, 230, 230);
+}
+
+footer {
+    padding: 20px 5%;
+    text-align: center;
+    border-bottom: 1px solid #222;
+}
+
+.efeito-cursor {
+    cursor: pointer;
+    transition: transform 0.4s ease;
+}
+
+.efeito-cursor:hover {
+    transform: translateY(-10px);
+}
+
+.cursor {
+    pointer-events: none;
+    position: fixed;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background-color: rgba(121, 101, 193, 0.5);
+    z-index: 99;
+    transform: translate(-50%, -50%);
+    
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+@media (max-width: 768px) {
+
+    header {
+        padding: 20px;
+        margin-left: 20px;
+    }
+
+    ul {
+        gap: 20px;
+        padding-left: 20px;
+        justify-content: flex-start;
+    }
+
+    .projetos {
+        padding: 60px 20px;
+    }
+
 }
 
