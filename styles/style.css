@@ -22,6 +22,11 @@ header {
     margin-left: 50px;
 }
 
+header a {
+    text-decoration: none;
+    color: inherit;
+}
+
 ul {
     display: flex;
     gap: 50px;
@@ -60,6 +65,7 @@ ul {
     color: rgb(236, 230, 230);
     font-weight: bold;
     border-radius: 5px;
+    text-decoration: none;
 }
 
 .titulo-secao {
@@ -245,6 +251,14 @@ img {
 
     .projetos {
         padding: 60px 20px;
+    }
+
+    .Sobre {
+        grid-template-columns: 1fr;
+    }
+
+    .img-projeto {
+        height: auto;
     }
 
 }
