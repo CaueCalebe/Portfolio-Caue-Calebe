@@ -1,2 +1,38 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --cor-fundo-principal: #0A192F;
+  --cor-fundo-secundaria: #112240;
+  --cor-texto: #CCD6F6;
+  --cor-destaque: #64FFDA;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: var(--cor-fundo-principal);
+    color: var(--cor-texto);
+}
+
+.menu {
+  list-style: none;
+}
+
+.menu a {
+  text-decoration: none;
+  color: var(--cor-texto);
+}
+
+#home h1 {
+  color: var(--cor-texto);
+}
+
+.destaque {
+  color: var(--cor-destaque);
+}
 
 
